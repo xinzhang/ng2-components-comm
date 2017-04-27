@@ -1,0 +1,6 @@
+<div class="col-md-6 col-md-offset-3">
+    <h3>Input Message:</h3>
+    <input type="text" name="txtMessage" [ngModel]="textInput" (change)="updateText($event)" />
+    <button (click)="sendMessage()">Send Message</button>
+    <button (click)="clearMessage()">Clear Message</button>
+</div>
